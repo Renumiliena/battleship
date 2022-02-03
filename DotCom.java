@@ -1,11 +1,13 @@
 import java.util.ArrayList;
 
 public class DotCom {
-        private ArrayList<String> locationCells;
-        //int numOfHits = 0;
-        public void setLocationCells(ArrayList<String> loc){
-            locationCells = loc;
-        }
+    private String name;
+    private ArrayList<String> locationCells;
+    public void setLocationCells(ArrayList<String> loc){locationCells = loc;}
+
+    public void setName(String n){
+        name = n;
+    }
     public String checkYourself(String userInput) {
         String result = "Мимо";
 
