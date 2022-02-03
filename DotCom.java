@@ -10,6 +10,7 @@ public class DotCom {
     }
     public String checkYourself(String userInput) {
         String result = "Мимо";
+        System.out.println(123);
 
         int index = locationCells.indexOf(userInput);
         if (index >= 0){
@@ -22,7 +23,7 @@ public class DotCom {
             }
         }
         /* if(numOfHits == locationCells.length){
-            result = "Потопил";
+            result qweqwewqewqe= "Потопил";
         } */
         System.out.println(result);
             return result;
